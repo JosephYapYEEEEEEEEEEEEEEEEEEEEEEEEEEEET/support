@@ -1,4 +1,4 @@
-const text = documemnt.getElementById("text");
+const text = document.getElementById("text");
 
 if (localStorage.count == "1") {
   text.innerHTML = "Just contact me.<br/>Seriously."
