@@ -8,7 +8,7 @@ if (localStorage.count == "1") {
   emailtext.innerHTML = "CONTACT ME:";
 } else if (localStorage.count == "2") {
   text.innerHTML = "I insist, contact me below.";
-  emailtext.innerHTML = "LOOK, IT'S OVER HERE:
+  emailtext.innerHTML = "LOOK, IT'S OVER HERE:";
 } else if (localStorage.count == "3") {
   text.innerHTML = "Do you have anything better to do?";
   emailtext.innerHTML = "";
