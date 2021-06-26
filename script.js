@@ -15,7 +15,7 @@ if (localStorage.count == "1") {
   email.hidden = true;
 } else if (localStorage.count == "4") {
   text.innerHTML = "......";
-  emailtext.innerHTML = `<span style="font: 'Source Code Pro', monospace">--></span>`;
+  emailtext.innerHTML = `<span style="font-family: 'Source Code Pro', monospace;">--></span>`;
 }
   else {
   text.innerHTML = "If you run into issues, turn the extension off and on in the Preferences Pane in the Safari App.";
