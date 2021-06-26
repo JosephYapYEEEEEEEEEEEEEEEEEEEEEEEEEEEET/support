@@ -1,6 +1,8 @@
 const text = document.getElementById("text");
 const emailtext = document.getElementById("emailtext");
+const email = document.getElementById("email");
 
+email.hidden = "false"
 if (localStorage.count == "1") {
   text.innerHTML = "Just contact me.<br/>Seriously.";
   emailtext.innerHTML = "CONTACT ME:";
